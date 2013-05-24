@@ -60,7 +60,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jLabel1.setText("File to Encrypt");
 
-        jTextField1.setText("/Users/crapson/Documents/plainText.txt");
+        jTextField1.setText("textFiles\\plainText.txt");
 
         jLabel2.setText("Encryption Key (6-10 letters)");
 
@@ -73,7 +73,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jLabel3.setText("Destination File");
 
-        jTextField3.setText("/Users/crapson/Documents/encryptedText.txt");
+        jTextField3.setText("textFiles\\encryptedText.txt");
 
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -121,13 +121,13 @@ public class MainFrame extends javax.swing.JFrame {
 
         jLabel4.setText("File to Decrypt");
 
-        jTextField4.setText("/Users/crapson/Documents/encryptedText.txt");
+        jTextField4.setText("textFiles\\encryptedText.txt");
 
         jLabel5.setText("Decryption Key (6-10 letters)");
 
         jLabel6.setText("Destination File");
 
-        jTextField6.setText("/Users/crapson/Documents/decryptedText.txt");
+        jTextField6.setText("textFiles\\decryptedText.txt");
 
         jButton2.setText("Decrypt");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -184,7 +184,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jTextField7.setText("/Users/crapson/Documents/encryptedText.txt");
+        jTextField7.setText("textFiles\\encryptedText.txt");
 
         jLabel7.setText("Encrypted File to Examine");
 

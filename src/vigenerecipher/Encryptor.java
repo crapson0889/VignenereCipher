@@ -6,6 +6,7 @@ package vigenerecipher;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
@@ -22,6 +23,8 @@ public class Encryptor {
         System.out.println(key);
         System.out.println(destinationFile);
         
+        //File file = new File(sourceFile);
+        System.out.println(System.getProperty("user.dir")); 
         //System.out.println(key.toUpperCase().charAt(0));
         
         System.out.println();
